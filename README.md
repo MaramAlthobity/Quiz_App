@@ -1,16 +1,13 @@
-# quiz_app
+# Quiz App
+## This app created using flutter framework (Dart programming language
 
-A new Flutter project.
+## It contain two screens
 
-## Getting Started
+1. Question Screen
 
-This project is a starting point for a Flutter application.
+![question](https://user-images.githubusercontent.com/56017399/112259674-c214b300-8c79-11eb-9243-409771cb4e8b.jpg)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+2. Result screen
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![result](https://user-images.githubusercontent.com/56017399/112259682-c4770d00-8c79-11eb-9232-2e6967070bb9.jpg)
