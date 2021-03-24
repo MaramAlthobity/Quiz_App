@@ -52,30 +52,30 @@ class _MyAppState extends State<MyApp> {
 
   final List<Map<String, Object>> _question = [
     {
-      'questionText': 'What\'s your favorite color?',
+      'questionText': 'Choose the correct HTML tag to make a text bold',
       'answers': [
-        {'text': 'Black', 'score': 10},
-        {'text': 'Green', 'score': 20},
-        {'text': 'Blue', 'score': 30},
-        {'text': 'Yellow', 'score': 40},
+        {'text': '<bold>', 'score': 0},
+        {'text': '<b>', 'score': 40},
+        {'text': '<bb>', 'score': 0},
+        {'text': '<bld>', 'score': 0},
       ]
     },
     {
-      'questionText': 'What\'s your favorite animal?',
+      'questionText': 'What is the correct HTML tag for inserting a line break?',
       'answers': [
-        {'text': 'Rabbit', 'score': 10},
-        {'text': 'Tiger', 'score': 20},
-        {'text': 'Elephant', 'score': 30},
-        {'text': 'Lion', 'score': 40},
+        {'text': '<br>', 'score': 40},
+        {'text': '<lb>', 'score': 0},
+        {'text': '<break>', 'score': 0},
+        {'text': '<newline>', 'score': 0},
       ]
     },
     {
-      'questionText': 'What\'s your favorite instrator?',
+      'questionText': 'What is the correct HTML tag to make a text italic?',
       'answers': [
-        {'text': 'Maram1', 'score': 10},
-        {'text': 'Maram2', 'score': 20},
-        {'text': 'Maram3', 'score': 30},
-        {'text': 'Maram4', 'score': 40},
+        {'text': '<ii>', 'score': 0},
+        {'text': '<italics>', 'score': 0},
+        {'text': '<italic>', 'score': 0},
+        {'text': '<i>', 'score': 40},
       ]
     },
   ];
@@ -86,29 +86,8 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Quiz App", style: TextStyle(color: w)),
-          actions: <Widget>[
-            Switch(
-              value: isSwitched,
-              onChanged: (value) {
-                setState(() {
-                  isSwitched = value;
-                  print(isSwitched);
-                  if (isSwitched == true) {
-                    b = Colors.white;
-                    w = Colors.black;
-                  }
-                  if (isSwitched == false) {
-                    b = Colors.black;
-                    w = Colors.white;
-                  }
-                });
-              },
-              activeColor: Colors.white,
-              inactiveThumbColor: Colors.black,
-              inactiveTrackColor: Colors.yellow,
-            ),
-          ],
+          title: Text("Quiz", style: TextStyle(color: w)),
+
         ),
         body: Container(
           color: w,
