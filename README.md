@@ -1,5 +1,5 @@
 # Quiz App
-## This app created using flutter framework (Dart programming language
+## This app created using flutter framework (Dart programming language)
 
 ## It contain two screens
 
